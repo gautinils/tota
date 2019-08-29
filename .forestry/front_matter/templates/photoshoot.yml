@@ -1,0 +1,10 @@
+---
+label: photoshoot
+hide_body: true
+fields:
+- type: file
+  name: image
+  label: image
+- type: text
+  name: title
+  label: title
