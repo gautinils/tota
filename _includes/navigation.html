@@ -1,17 +1,11 @@
 <header>
 	<nav>
-		<div class="header-image">
-			<a href="{{"/" | absolute_url }}">
-				<img src="{{ site.data.navigation.image  | absolute_url}}" alt="Tóta Van Helzing" />
-			</a>
-		</div>
-		<div class="">
-			<div class="row header-links">
-				{% for link in site.data.navigation.links %}
-				<a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
-				{% if forloop.last != true %}|{% endif %}
-				{% endfor %}
-			</div>
+		{% include header-image.html %}
+		<div class="row header-links">
+			{% for link in site.data.navigation.links %}
+			<a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
+			{% if forloop.last != true %}|{% endif %}
+			{% endfor %}
 		</div>
 	</nav>
 </header>
