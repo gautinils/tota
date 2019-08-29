@@ -10,4 +10,3 @@ class: sweater-page
 	<div class="col-xs-12 col-sm-8">
 	</div>
 </section>
-<script src="/assets/js/sweater.js"></script>
