@@ -1,0 +1,14 @@
+<header>
+	<nav>
+		<div class="row center-xs header-image">
+			<img href="/" src="{{ site.data.navigation.image }}" alt="Tóta Van Helzing" />
+		</div>
+		<ul class="row around-xs header-links">
+			{% for link in site.data.navigation.links %}
+			<li>
+				<a href="{{ link.url }}">{{ link.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</nav>
+</header>

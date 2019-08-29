@@ -1,0 +1,15 @@
+.shoots {
+	img {
+		width: 95%;
+		padding: 3rem 0;
+	}
+	@media (min-width: 48em) {
+		.col-2 {
+			padding-top: 6rem;
+		}
+		.col-3 {
+			padding-top: 12rem;
+		}
+	}
+}
+

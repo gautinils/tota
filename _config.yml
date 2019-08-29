@@ -1,0 +1,23 @@
+title: Tóta Van Helzing
+description: Tóta's website
+baseurl:
+collections:
+  home_images:
+    output: true
+  sweaters:
+    output: true
+    permalink: /shop/:path/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "sweaters"
+    values:
+      layout: "sweater"
+      author: "Tóta Van Helzing"
+sass:
+  sass_dir: _scss
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
