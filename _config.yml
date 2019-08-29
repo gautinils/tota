@@ -1,6 +1,11 @@
 title: Tóta Van Helzing
 description: Tóta's website
 baseurl:
+logo: /assets/img/tota.png
+social:
+  links:
+    - https://www.facebook.com/totavanhelzing/
+    - https://www.instagram.com/totavanhelzing/
 collections:
   home_images:
     output: true

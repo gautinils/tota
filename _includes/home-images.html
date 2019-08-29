@@ -11,18 +11,18 @@
 		{% assign first_third = one_third %}
 		{% assign second_third = one_third %}
 	{% endif %}
-	<div class="col-1 col-xs-12 col-sm-4">
+	<div class="col-1 col-xs-12 col-sm-4 image-col">
 		{% for home_image in site.home_images limit: first_third %}
 		<img src="{{ home_image.image | absolute_url }}" title="{{ home_image.title }}" />
 		{% endfor %}
 	</div>
-	<div class="col-2 col-xs-12 col-sm-4">
+	<div class="col-2 col-xs-12 col-sm-4 image-col">
 		{% for home_image in site.home_images limit: second_third offset: first_third %}
 		<img src="{{ home_image.image | absolute_url }}" title="{{ home_image.title }}" />
 		{% endfor %}
 	</div>
 	{% assign third = first_third | plus: second_third %}
-	<div class="col-3 col-xs-12 col-sm-4">
+	<div class="col-3 col-xs-12 col-sm-4 image-col">
 		{% for home_image in site.home_images offset: third %}
 		<img src="{{ home_image.image | absolute_url }}" title="{{ home_image.title }}" />
 		{% endfor %}
