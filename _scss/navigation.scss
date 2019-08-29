@@ -1,5 +1,11 @@
 header {
 	img {
-		width: 100%;
+		max-width: 100%;
+	}
+	.header-links {
+		margin: 20px 20px 0px 20px;
+		a {
+			padding: 0 1rem;
+		}
 	}
 }

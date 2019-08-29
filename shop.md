@@ -1,4 +1,4 @@
 ---
 layout: shop
-title: Shop
+title: shop
 ---
