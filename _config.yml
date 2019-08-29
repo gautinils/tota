@@ -11,6 +11,11 @@ defaults:
   -
     scope:
       path: ""
+    values:
+      image: /assets/img/tota.png
+  -
+    scope:
+      path: ""
       type: "sweaters"
     values:
       layout: "sweater"
