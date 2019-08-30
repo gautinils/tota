@@ -1,11 +1,30 @@
 header {
 	img {
 		max-width: 100%;
+		animation-duration: 1s;
+		animation-name: scale;
+		animation-iteration-count: 1;
+		animation-direction: alternate;
 	}
 	.header-links {
-		margin: 20px 20px 0px 20px;
+		margin: 20px;
 		a {
 			padding: 0 1rem;
 		}
 	}
+}
+
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+	25% {
+		transform: scale(0.6)
+	}
+
+
+	100% {
+    transform: scale(1);
+  }
 }
