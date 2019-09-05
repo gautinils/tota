@@ -20,3 +20,5 @@ fields:
 - type: text
   name: paypal_button_id
   label: paypal_button_id
+pages:
+- _sweaters/black-furry-sweater.md
