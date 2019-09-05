@@ -1,0 +1,25 @@
+---
+label: Sweater
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: image
+  label: image
+- type: list
+  name: extra_images
+  label: extra_images
+- type: text
+  name: sweater_id
+  label: sweater_id
+- type: number
+  name: price
+  label: price
+- type: text
+  name: paypal_button_id
+  label: paypal_button_id
