@@ -13,18 +13,22 @@
 	{% endif %}
 	<div class="col-1 col-xs-12 col-sm-4 image-col">
 		{% for home_image in site.home_images limit: first_third %}
-		<img src="{{ home_image.image | absolute_url }}" title="{{ home_image.title }}" />
+		{% include home-image.html img=home_image end=true %}
 		{% endfor %}
 	</div>
 	<div class="col-2 col-xs-12 col-sm-4 image-col">
 		{% for home_image in site.home_images limit: second_third offset: first_third %}
-		<img src="{{ home_image.image | absolute_url }}" title="{{ home_image.title }}" />
+		{% assign mod2 = forloop.index | modulo: 2 %}
+		{% if mod2 == 0 %}
+			{% assign end = true %}
+		{% endif %}
+ 		{% include home-image.html img=home_image end=end %}
 		{% endfor %}
 	</div>
 	{% assign third = first_third | plus: second_third %}
 	<div class="col-3 col-xs-12 col-sm-4 image-col">
 		{% for home_image in site.home_images offset: third %}
-		<img src="{{ home_image.image | absolute_url }}" title="{{ home_image.title }}" />
+		{% include home-image.html img=home_image %}
 		{% endfor %}
 	</div>
 </section>

@@ -1,0 +1,8 @@
+<img class="home-img" src="{{ include.img.image | absolute_url }}" title="{{ include.img.title }}" />
+<div class="image-details hidden">
+	<div class="row {% if include.end %}end-xs{% endif %}">
+		<div class="col-md-6 col-xs-12 ">
+			<img class="detail-img" src="{{ include.img.image | absolute_url }}" title="{{ include.img.title }}" />
+		</div>
+	</div>
+</div>

@@ -1,7 +1,7 @@
 html {
 	font-family: 'Poppins', sans-serif;
 	color: white;
-	background-color: #171715;
+	background-color: #161614;
 }
 
 li {
@@ -15,4 +15,13 @@ a {
 	&:hover {
 		text-decoration: underline;
 	}
+}
+
+.hidden {
+	display: none;
+}
+
+.no-scroll {
+	overflow: hidden;
+	height: 100%;
 }
