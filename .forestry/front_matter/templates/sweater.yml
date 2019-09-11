@@ -21,6 +21,7 @@ fields:
   name: paypal_button_id
   label: paypal_button_id
 pages:
+- _home_images/photographer-julie-rowland-1.md
 - _home_images/photographer-julie-rowland.md
 - _home_images/photographer-therese-precht-vadum.md
 - _home_images/photographer-valgerður-anna-1.md
