@@ -6,6 +6,5 @@ extra_images:
 - ''
 price: 
 paypal_button_id: ''
-published: false
 
 ---
