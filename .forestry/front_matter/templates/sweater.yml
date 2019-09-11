@@ -21,5 +21,6 @@ fields:
   name: paypal_button_id
   label: paypal_button_id
 pages:
+- _sweaters/leftover-sweater.md
 - _home_images/2019.md
 - _sweaters/black-furry-sweater.md
