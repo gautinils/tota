@@ -21,6 +21,7 @@ fields:
   name: paypal_button_id
   label: paypal_button_id
 pages:
+- _sweaters/pink.md
 - _sweaters/leftover-sweater.md
 - _home_images/photographer-eva-schram-2.md
 - _home_images/photographer-eva-schram-1.md
