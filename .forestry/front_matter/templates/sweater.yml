@@ -21,6 +21,7 @@ fields:
   name: paypal_button_id
   label: paypal_button_id
 pages:
+- _home_images/photographer-jeaneen-lund-3.md
 - _home_images/photographer-jeaneen-lund-2.md
 - _home_images/photographer-jeaneen-lund-1.md
 - _home_images/photographer-jeaneen-lund.md
