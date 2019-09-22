@@ -5,7 +5,7 @@ class: sweater-page
 
 <section class="row sweater" data-sweater="{{ page.sweater_id }}" data-title="{{ page.title }}">
 	<div class="col-xs-12 col-sm-6">
-		<img class="sweater-image" src="{{ page.image | absolute_url }}">
+		<img class="sweater-image" src="{{ page.image }}">
 	</div>
 	<div class="col-xs-6 col-sm-4 sweater-info">
 		<p>{{ page.description }}</p>
